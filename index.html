@@ -7,12 +7,12 @@
   </head>
   <body>
     <header>
-      <a href="./index.html">Sushi-shop</a>
+      <a id="up-to" href="./index.html">Sushi-shop</a>
       <nav>
         <ul>
-          <li><a href="#">Advantages</a></li>
-          <li><a href="#">Sets</a></li>
-          <li><a href="#">Contacts</a></li>
+          <li><a href="#advantages">Advantages</a></li>
+          <li><a href="#sets">Sets</a></li>
+          <li><a href="#contacts">Contacts</a></li>
         </ul>
       </nav>
     </header>
@@ -24,12 +24,12 @@
           You will like our delicious and inexpensive sushi. We guarantee you:
           in the variety of sets you will choose your taste.
         </p>
-        <a href="#">Order</a>
+        <a href="#sign-in">Sign in</a>
         <img src="" alt="" />
       </section>
       <!-- advantanges section -->
       <section>
-        <h2>Advantanges</h2>
+        <h2 id="advantages">Advantanges</h2>
         <ul>
           <!-- advantange 1 -->
           <li>
@@ -57,7 +57,7 @@
       </section>
       <!-- our sets section -->
       <section>
-        <h2>Our sets</h2>
+        <h2 id="sets">Our sets</h2>
         <ul>
           <!-- set 1 -->
           <li>
@@ -90,7 +90,36 @@
         </ul>
       </section>
       <!-- form section -->
-      <section></section>
+      <section>
+        <form>
+          <h2>Sign up</h2>
+          <p>and order our delicious sushis</p>
+          <!-- name -->
+          <ladel>
+            Full name
+            <input type="text" name="user-name" placeholder="Elen Purple" />
+          </ladel>
+          <!-- email -->
+          <ladel>
+            Email
+            <input
+              type="email"
+              name="user-email"
+              placeholder="elen.purple.2000@gmail.com"
+            />
+          </ladel>
+          <button id="sign-in" type="submit">Sign in</button>
+        </form>
+      </section>
     </main>
+    <footer>
+      <a id="contacts" href="#up-to">Sushi-shop</a>
+      <address>
+        <p><span>Phone:</span> +380 99 890 4567</p>
+        <p><span>Address:</span> Ternopil region, Ternopil, prov. Kutok 20</p>
+        <p><span>Email:</span> sushi.shop@gmail.com</p>
+      </address>
+      <p><span>Our social</span> networks:</p>
+    </footer>
   </body>
 </html>
